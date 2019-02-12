@@ -1,0 +1,25 @@
+// Color assignments 
+@font-color: @dell;
+@button-bg: @eastern;
+@main-bg:  @white;
+@navigation-border: @silver;
+@footer-bg: @beach;
+
+// Colors
+@white: #FFFFFF;
+@silver: #C0C0C0;
+@dell: #212529;
+@eastern: #17A2B8;
+@beach: #FFEBCD;
+
+// Mobile design styling
+
+@desktop: ~"(max-width: 1000px)";
+@mobile: ~"(max-width: 500px)";
+
+.header {
+    @media @mobile {
+        width: 480px;
+        margin: 0 2%;
+    }
+}    
