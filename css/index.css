@@ -1,3 +1,8 @@
+@media (min-width: 1000px) {
+  .header {
+    background: lightgreen;
+  }
+}
 @media (min-width: 500px) {
   .navigation {
     background: lightblue;
@@ -163,9 +168,22 @@ h5 {
   padding: 5px;
   margin: 5px;
 }
-.container {
-  width: 500px;
-  border: 1px solid red;
+.navigation nav {
+  width: 26%;
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  margin: 10%;
+  font-size: 1.6rem;
+}
+.navigation nav a {
+  text-decoration: none;
+  color: #000000;
+  font-size: 1.6rem;
+}
+.navigation nav a:hover {
+  background: transparent;
+  color: chocolate;
 }
 .main-content {
   display: flex;
@@ -193,8 +211,9 @@ footer {
   flex-direction: row;
 }
 .text-content {
+  border: 1px solid blue;
   display: flex;
-  flex-direction: row;
+  flex-direction: column;
 }
 .dev-img {
   width: 48%;
@@ -206,4 +225,8 @@ body {
   margin: 0;
   padding: 1%;
   background-color: #fffef7;
+}
+.container {
+  width: 500px;
+  border: 1px solid red;
 }

@@ -1,8 +1,8 @@
+
 const toggleMenu = () => {
     
-    menu.classList.toggle('menu--down');
+    menu.classList.toggle('menu--over');
   }
-  
   
   const menu = document.querySelector('.menu');
  
