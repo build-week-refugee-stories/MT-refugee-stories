@@ -159,9 +159,21 @@ h5 {
   width: 500px;
   display: flex;
 }
-.navigation h1 {
+.navigation .header {
+  width: 1000px;
+  height: 75px;
+  background-color: #6c756d;
+  color: white;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: fixed;
+  top: 0;
+  z-index: 2;
+}
+.navigation .header h1 {
   border: 1px solid green;
-  width: 45%;
+  width: 35%;
   height: 40px;
   font-size: 1.5rem;
   font-family: sans-serif;
@@ -184,6 +196,35 @@ h5 {
 .navigation nav a:hover {
   background: transparent;
   color: chocolate;
+}
+.menu-button {
+  position: absolute;
+  left: 20px;
+  cursor: pointer;
+}
+.menu {
+  display: none;
+  position: fixed;
+  top: 75px;
+  right: 0;
+  width: 350px;
+  height: 100vh;
+  /* This give the height 100% of the screen or, '100% of View Height' */
+  background-color: chocolate;
+  border: 1px solid teal;
+  border-left: none;
+  border-bottom: none;
+  z-index: 2;
+  /* This set the layer level of the element, it has precendence over initial level of 1*/
+}
+.menu ul li {
+  list-style-type: none;
+  font-size: 20px;
+  padding: 30px 0;
+  text-align: center;
+}
+.menu--over {
+  display: block;
 }
 .main-content {
   display: flex;
@@ -225,11 +266,9 @@ footer {
 }
 html,
 body {
-  width: 1000px;
-  height: 650px;
-  font-family: sans-serif;
   margin: 0;
   padding: 0%;
+  font-family: sans-serif;
   background-color: #fffef7;
 }
 .container {
@@ -238,4 +277,5 @@ body {
   border: 1px solid red;
   font-family: sans-serif;
   background-image: url("https://www.annenbergphotospace.org/wp-content/uploads/2016/02/refugee-1920x1000-hero_0.jpg");
+  margin: 1%;
 }
