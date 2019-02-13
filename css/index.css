@@ -188,7 +188,7 @@ h5 {
 .main-content {
   display: flex;
   flex-direction: column;
-  background-image: url("https://www.annenbergphotospace.org/wp-content/uploads/2016/02/refugee-1920x1000-hero_0.jpg");
+  background: transparent;
 }
 .main-content .top {
   border: 1px solid blue;
@@ -205,31 +205,37 @@ footer {
   border-top: 2px solid black;
 }
 .about-content {
+  border: 2px dashed green;
+  height: 450px;
   display: flex;
   flex-direction: row;
-  background-image: url("https://www.annenbergphotospace.org/wp-content/uploads/2016/02/refugee-1920x1000-hero_0.jpg");
+  background: transparent;
 }
 .about-content .text-content {
   border: 1px solid blue;
   display: flex;
-  flex-direction: column;
+  flex-direction: row;
 }
-.about-content .dev-img {
-  width: 48%;
+.about-content .text-content .dev-img {
+  width: 4px;
   margin: 5px;
+}
+.about-content .text-content .dev-imgr {
+  width: 4px;
 }
 html,
 body {
-  width: 500px;
+  width: 1000px;
   height: 650px;
   font-family: sans-serif;
   margin: 0;
-  padding: 1%;
+  padding: 0%;
   background-color: #fffef7;
 }
 .container {
-  width: 500px;
+  width: 1000px;
   height: 640px;
   border: 1px solid red;
   font-family: sans-serif;
+  background-image: url("https://www.annenbergphotospace.org/wp-content/uploads/2016/02/refugee-1920x1000-hero_0.jpg");
 }
