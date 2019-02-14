@@ -6,5 +6,5 @@ p.addEventListener("mouseover", e => {
 
   setTimeout(function() {
       event.target.style.color = "";
-    }, 500);
+    }, 100);
   }, false);
