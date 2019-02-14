@@ -1,3 +1,4 @@
+// Menu
 
 const toggleMenu = () => {
     menu.classList.toggle('menu--over');
@@ -12,5 +13,9 @@ const toggleMenu = () => {
   const menudrop = document.querySelector(".menu");
   menudrop.addEventListener("mouseover", e => {   
      
-      e.target.style.opacity = "0.66";
-  });
+    e.target.style.opacity = "0.66";
+  // });
+  setTimeout(function() {
+    e.target.style.opacity = "";  
+    }, 500);
+}, false);

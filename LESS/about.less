@@ -1,0 +1,29 @@
+// About page
+
+.about-content {
+    display: flex;
+    flex-direction: row;
+    background: transparent;
+    color: white;
+    
+    @media @mobile {
+        justify-content: center;   
+    }
+
+    .text-content {
+        display: flex;
+        flex-direction: column;
+        padding: 5px;
+        margin: 5px;
+        
+        .dev-img {
+            width: 150px;
+            margin: 5px;
+            border-radius: 35px;
+        }
+
+        a {
+            opacity: 1;
+        }
+    }
+}

@@ -1,3 +1,4 @@
+// Article
 
 class Article {
     constructor(domElement) {

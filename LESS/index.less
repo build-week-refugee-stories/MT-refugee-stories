@@ -1,14 +1,16 @@
-//Less import files
+// Imports
 
 @import 'variables.less';
 @import 'mixins.less';
 @import 'reset.less';
-@import 'navigation.less';
-@import '..\Menu\menu.less';
-@import '..\Article-section\Article.less';
-@import '..\Marketing-page\marketing.less';
-@import '..\About-page\about.less';
+@import 'header.less';
+@import 'menu.less';
+@import 'Article.less';
+@import 'marketing.less';
+@import 'about.less';
+@import 'footer.less';
 
+// General attributes
 
 html, body {
     margin: 0;
@@ -25,11 +27,9 @@ h1, h2, h3, h4, h5 {
     height: auto;
     display : flex;
     flex-direction: column;
-    // border: 1px solid red;
     font-family: 'Times New Roman', Times, serif;
     background: transparent;
     margin: 1%;
-
 
     @media @mobile {
         font-family: 'Times New Roman', Times, serif;
