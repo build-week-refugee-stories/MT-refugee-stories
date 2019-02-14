@@ -1,0 +1,52 @@
+
+  .article {
+    margin: 20px 10%;
+    padding: 0 20px 25px;
+    border: 1px solid lightgrey;
+    border-radius: 10px;
+    background: rgb(102, 97, 97);
+    position: relative;
+    height: 45px;
+    overflow: hidden;
+    box-shadow: 3px 3px 3px rgb(141, 205, 209);
+    opacity: 0.6;
+
+    h3 {
+      color: rgb(123, 168, 214);
+      font-size: 20px;
+      text-align: center;
+      margin: 15px 0 0;
+    }
+
+    p {
+      color:gray;
+      margin-top: 10px;
+    }
+  
+    .close {
+      position: absolute;
+      top: 10px;
+      right: 10px;
+    }
+  
+    .expandButton {
+      position: absolute;
+      bottom: 0;
+      left: 50%;
+      font-size: 14px;
+      color: ghostwhite;
+      cursor: pointer;
+      border: 1px solid ghostwhite;
+      border-radius: 15px;
+      transform: translate(-50%);
+      background-color: transparent;
+    }  
+      
+    .expandButton:hover {
+        color: rgb(165, 165, 196);
+      }
+  }
+  
+  .article-open {
+    height: 175px;
+  }

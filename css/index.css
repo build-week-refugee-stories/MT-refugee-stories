@@ -200,7 +200,7 @@ h5 {
   border: 1px solid black;
   border-radius: 10%;
   padding: 5px;
-  color: blue;
+  color: teal;
   margin-bottom: 2px;
 }
 .navigation nav a:hover {
@@ -215,21 +215,23 @@ h5 {
 .menu {
   display: none;
   position: fixed;
-  top: 75px;
+  top: 55px;
   left: 20;
-  width: 10%;
+  width: 18%;
   height: 30vh;
   /* This give the height 100% of the screen or, '100% of View Height' */
   background-image: url("https://cdn.pixabay.com/photo/2015/09/09/20/28/access-933136_960_720.jpg");
   border: 1px solid #b2b8b8;
+  border-radius: 25px;
   border-left: none;
   border-bottom: none;
-  z-index: -1;
+  z-index: 1;
   /* This set the layer level of the element, it has precendence over initial level of 1*/
 }
-@media (min-width: 1000px) {
+@media (min-width: 500px) {
   .menu {
-    width: 10%;
+    width: 18%;
+    background: lightslategray;
   }
 }
 .menu ul li {
@@ -244,6 +246,51 @@ menu a {
 }
 .menu--over {
   display: block;
+}
+.article {
+  margin: 20px 10%;
+  padding: 0 20px 25px;
+  border: 1px solid lightgrey;
+  border-radius: 10px;
+  background-color: #666161;
+  position: relative;
+  height: 45px;
+  overflow: hidden;
+  box-shadow: 3px 3px 3px #8dcdd1;
+  opacity: 0.6;
+}
+.article h3 {
+  color: #7ba8d6;
+  font-size: 20px;
+  text-align: center;
+  margin: 15px 0 0;
+}
+.article p {
+  color: gray;
+  margin-top: 5px;
+}
+.article .close {
+  position: absolute;
+  top: 10px;
+  right: 10px;
+}
+.article .expandButton {
+  position: absolute;
+  bottom: 0;
+  left: 50%;
+  font-size: 14px;
+  color: ghostwhite;
+  cursor: pointer;
+  border: 1px solid ghostwhite;
+  border-radius: 15px;
+  transform: translate(-50%);
+  background-color: transparent;
+}
+.article .expandButton:hover {
+  color: #a5a5c4;
+}
+.article-open {
+  height: 175px;
 }
 .main-content {
   display: flex;
@@ -303,6 +350,13 @@ body {
   padding: 0%;
   font-family: 'Times New Roman', Times, serif;
   background-image: url("https://www.annenbergphotospace.org/wp-content/uploads/2016/02/refugee-1920x1000-hero_0.jpg");
+}
+h1,
+h2,
+h3,
+h4,
+h5 {
+  font-family: 'Times New Roman', Times, serif;
 }
 .container {
   width: 98%;

@@ -11,6 +11,6 @@ const toggleMenu = () => {
 
   const menudrop = document.querySelector(".menu");
   menudrop.addEventListener("mouseover", e => {   
-      // highlight the mouseover target
-      e.target.style.opacity = "0.8";
+     
+      e.target.style.opacity = "0.66";
   });
