@@ -148,6 +148,8 @@ h5 {
   width: 98%;
   display: flex;
   flex-direction: row;
+  position: fixed;
+  bottom: 1px;
 }
 @media (min-width: 1000px) {
   .navigation {
@@ -174,10 +176,11 @@ h5 {
 .navigation .header h1 {
   width: 20%;
   height: 50px;
-  font-size: 1.5rem;
-  font-family: sans-serif;
+  font-size: 1.8rem;
+  font-family: 'Times New Roman', Times, serif;
   padding: 5px;
   margin: 5px;
+  color: white;
 }
 .navigation nav {
   width: 95%;
@@ -190,7 +193,7 @@ h5 {
 .navigation nav a {
   text-decoration: none;
   color: #000000;
-  font-size: 1rem;
+  font-size: 1.5rem;
   border: 1px solid black;
   border-radius: 10%;
   padding: 5px;
@@ -235,9 +238,9 @@ h5 {
   flex-direction: column;
   background: transparent;
   margin-top: 20px;
+  color: white;
 }
 .main-content .top {
-  border: 1px solid blue;
   width: 100%;
   height: 70px;
   padding: 1%;
@@ -251,14 +254,16 @@ h5 {
 }
 footer {
   border-top: 1px solid black;
+  background-image: url("https://www.annenbergphotospace.org/wp-content/uploads/2016/02/refugee-1920x1000-hero_0.jpg");
+  height: 50px;
 }
 .about-content {
   display: flex;
   flex-direction: row;
   background: transparent;
+  color: white;
 }
 .about-content .text-content {
-  border: 1px solid blue;
   display: flex;
   flex-direction: column;
   padding: 5px;
@@ -268,15 +273,11 @@ footer {
   width: 4px;
   margin: 5px;
 }
-.about-content .text-content .dev-imgr {
-  width: 4px;
-  justify-content: flex-end;
-}
 html,
 body {
   margin: 0;
   padding: 0%;
-  font-family: sans-serif;
+  font-family: 'Times New Roman', Times, serif;
   background-image: url("https://www.annenbergphotospace.org/wp-content/uploads/2016/02/refugee-1920x1000-hero_0.jpg");
 }
 .container {
@@ -284,9 +285,9 @@ body {
   height: auto;
   display: flex;
   flex-direction: column;
-  font-family: sans-serif;
+  font-family: 'Times New Roman', Times, serif;
   background: transparent;
-  margin: 0%;
+  margin: 1%;
 }
 @media (min-width: 1000px) {
   .container {
