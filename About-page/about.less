@@ -3,6 +3,10 @@
     flex-direction: row;
     background: transparent;
     color: white;
+    
+    @media @mobile {
+        justify-content: center;   
+        }
 
     .text-content {
         display: flex;
@@ -10,10 +14,7 @@
         padding: 5px;
         margin: 5px;
         
-        // @media @mobile {
-        //     display:flex;
-        //     flex-direction: column;
-        // }
+        
 
         .dev-img {
             width: 150px;
