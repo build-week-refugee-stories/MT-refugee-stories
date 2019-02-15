@@ -14,8 +14,8 @@ const toggleMenu = () => {
   menudrop.addEventListener("mouseover", e => {   
      
     e.target.style.opacity = "0.66";
-  // });
+
   setTimeout(function() {
     e.target.style.opacity = "";  
-    }, 500);
+    }, 1000);
 }, false);
