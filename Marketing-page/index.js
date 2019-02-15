@@ -7,7 +7,7 @@ pel.addEventListener("mouseover", e => {
 
   setTimeout(function() {
     e.target.style.color = "";  
-    }, 5000);
+    }, 10000);
   }, false);
 
 const war = document.querySelector(".war");

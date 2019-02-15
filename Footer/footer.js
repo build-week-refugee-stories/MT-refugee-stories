@@ -1,11 +1,11 @@
 // Footer
 
-const bot = document.querySelectorAll("nav a");
-bot.addEventListener("mouseover", e => {   
-   
+const nav = document.querySelectorAll(".tag");
+nav.addEventListener("mouseover", e => {   
+
     e.target.style.background = "white";
 
-    setTimeout(function() {
-        e.target.style.background = "";  
-        }, 5000);
-    }, false);
+  setTimeout(function() {
+    e.target.style.background = "";  
+    }, 1000);
+  }, false);
