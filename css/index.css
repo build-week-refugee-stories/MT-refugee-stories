@@ -187,18 +187,16 @@ h5 {
 }
 .menu-button {
   position: absolute;
-  right: 20px;
+  right: 84px;
   cursor: pointer;
 }
 .menu {
   display: none;
   position: fixed;
   top: 46px;
-  right: 20px;
-  width: 18%;
-  height: 30vh;
+  right: 0;
   border: 1px solid #b2b8b8;
-  border-radius: 25px;
+  border-radius: 80px;
   border-left: none;
   border-bottom: none;
   z-index: 1;
@@ -292,10 +290,9 @@ menu a {
 }
 .about-content {
   display: flex;
-  flex-direction: row;
+  flex-direction: column;
   background: transparent;
   color: white;
-  border: 1px solid green;
 }
 .about-content .top {
   width: 100%;
@@ -310,7 +307,7 @@ menu a {
   padding: 5px;
   margin: 0;
   align-items: center;
-  justify-content: flex-start;
+  justify-content: center;
 }
 .about-content .text-contenta .dev-img {
   width: 120px;
