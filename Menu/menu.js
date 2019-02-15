@@ -17,5 +17,5 @@ const toggleMenu = () => {
 
   setTimeout(function() {
     e.target.style.opacity = "";  
-    }, 1000);
+    }, 3000);
 }, false);

@@ -151,11 +151,6 @@ h5 {
   position: fixed;
   bottom: 0;
 }
-@media (min-width: 1000px) {
-  .navigation {
-    width: 98%;
-  }
-}
 .navigation .header {
   width: 98%;
   height: 45px;
@@ -168,11 +163,6 @@ h5 {
   top: 0;
   z-index: 2;
 }
-@media (min-width: 1000px) {
-  .navigation .header {
-    width: 98%;
-  }
-}
 .navigation .header h1 {
   width: 20%;
   height: 50px;
@@ -184,11 +174,17 @@ h5 {
 }
 .navigation .header a {
   text-decoration: none;
+  color: blue;
 }
 .menu-button {
   position: absolute;
   right: 84px;
   cursor: pointer;
+}
+@media (max-width: 555px) {
+  .menu-button {
+    right: 20px;
+  }
 }
 .menu {
   display: none;
@@ -201,10 +197,19 @@ h5 {
   border-bottom: none;
   z-index: 1;
 }
-@media (min-width: 515px) {
+@media (max-width: 555px) {
   .menu {
     width: 18%;
     background: #666161;
+    opacity: 0.6;
+  }
+}
+@media (min-width: 1000px) {
+  .menu {
+    width: 100px;
+    right: 70px;
+    background: #666161;
+    opacity: 0.6;
   }
 }
 .menu ul li {
@@ -262,7 +267,17 @@ menu a {
   color: chocolate;
 }
 .article-open {
-  height: 240px;
+  height: 200px;
+}
+@media (max-width: 555px) {
+  .article-open {
+    height: 240px;
+  }
+}
+@media (min-width: 1000px) {
+  .article-open {
+    height: 180px;
+  }
 }
 .main-content {
   display: flex;
@@ -287,6 +302,12 @@ menu a {
   width: 400px;
   border-radius: 20px;
   margin: 2%;
+}
+@media (max-width: 555px) {
+  .main-content .text-box .war {
+    width: 300px;
+    margin: 4%;
+  }
 }
 .about-content {
   display: flex;
@@ -425,7 +446,7 @@ h5 {
   background: transparent;
   margin: 1%;
 }
-@media (min-width: 515px) {
+@media (max-width: 555px) {
   .container {
     font-family: 'Times New Roman', Times, serif;
   }

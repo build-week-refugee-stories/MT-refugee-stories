@@ -4,6 +4,10 @@
     position: absolute;
     right: 84px;
     cursor: pointer;
+
+  @media @mobile {
+    right: 20px;
+  }
 }
   
   .menu {
@@ -19,7 +23,15 @@
   
     @media @mobile {
       width: 18%;
-      background: rgb(102, 97, 97);;
+      background: rgb(102, 97, 97);
+      opacity: 0.6;
+    }
+
+    @media @desktop {
+      width: 100px;
+      right: 70px;
+      background: rgb(102, 97, 97);
+      opacity: 0.6;
     }
   }
   
