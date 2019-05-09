@@ -1,0 +1,38 @@
+// Imports
+
+@import 'variables.less';
+@import 'mixins.less';
+@import 'reset.less';
+@import 'header.less';
+@import 'menu.less';
+@import 'Article.less';
+@import 'marketing.less';
+@import 'about.less';
+@import 'footer.less';
+
+// General attributes
+
+html, body {
+    margin: 0;
+    padding: 0%;
+    font-family: 'Times New Roman', Times, serif;
+    background-image: url("https://www.annenbergphotospace.org/wp-content/uploads/2016/02/refugee-1920x1000-hero_0.jpg");
+}
+
+h1, h2, h3, h4, h5 {
+    font-family: 'Times New Roman', Times, serif;
+}
+
+.container {
+    width: 98%;
+    height: auto;
+    display : flex;
+    flex-direction: column;
+    font-family: 'Times New Roman', Times, serif;
+    background: transparent;
+    margin: 1%;
+
+    @media @mobile {
+        font-family: 'Times New Roman', Times, serif;
+    }
+}

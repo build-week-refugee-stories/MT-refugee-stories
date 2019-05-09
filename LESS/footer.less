@@ -1,0 +1,44 @@
+// Footer
+
+.bottom-nav {
+    width: 98%;
+    display: flex;
+    flex-direction: row;
+    position: fixed;
+    bottom: 0;
+}
+
+footer {
+    border-top: 1px solid black;
+    background-image: url("https://www.annenbergphotospace.org/wp-content/uploads/2016/02/refugee-1920x1000-hero_0.jpg");
+    height: 45px;
+    padding: 2px;
+    margin: 2px;
+    opacity: 0.6;
+
+    nav {
+        width: 98%;
+        flex-direction: row;
+        position: fixed;
+        bottom: 0;
+        .topper();
+
+        @media @desktop {
+            width: 98%;
+        }
+    } 
+
+    nav a {
+        .navs();
+        border: 1px solid black;
+        border-radius: 10%;
+        padding: 5px;
+        color: teal;
+        margin-bottom: 2px;
+    }
+
+    nav a:hover {
+        background: transparent;
+        color: chocolate;
+    } 
+}
